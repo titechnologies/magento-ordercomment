@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+     <tabs>
+        <ti translate="label" module="ordercomment">
+            <label>Ti</label>
+            <sort_order>110</sort_order>
+        </ti>
+    </tabs>
+     <sections>
+        <ordercomment translate="label" module="ordercomment">
+            <label>Order Comment</label>
+            <tab>ti</tab>
+            <sort_order>1050</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <ordercomment_group translate="label" module="ordercomment">
+                    <label>Order Comment Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1008</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <ordercomment_enable translate="label">
+                            <label>Enable Order Comment Module</label>
+                            <comment>If selected 'yes' then facility to add comments in checkout page will be available</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </ordercomment_enable>
+                        <ordercomment_question translate="label">
+                            <label>Question/Title</label>
+                            <comment>Title/Question to display in front end</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>91</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </ordercomment_question>
+                        <ordercomment_comments translate="label">
+                            <label>Answer/Message</label>
+                            <comment>Answer/Message to display in front end. Seperate each messages with semi-colon (;)</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>94</sort_order>
+                            <rows>10</rows>
+                            <cols>30</cols>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </ordercomment_comments>
+                        <ordercomment_boxtitle translate="label">
+                            <label>Comment box title</label>
+                            <comment>Comment box title to display in front end</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>91</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </ordercomment_boxtitle>
+                    </fields>
+                </ordercomment_group>
+            </groups>
+        </ordercomment>
+    </sections>
+</config>

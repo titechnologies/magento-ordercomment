@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+ /**
+* Ti Order Comment Module
+*
+* @category    Ti
+* @package     Ti_OrderComment
+* @copyright   Copyright (c) 2014 Ti Technologies (http://www.titechnologies.in)
+* @link        http://www.titechnologies.in
+*/
+
+-->
+<config>
+    <modules>
+        <Ti_OrderComment>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Checkout />
+                <Mage_Sales />
+            </depends>
+        </Ti_OrderComment>
+    </modules>
+</config>

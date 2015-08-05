@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ti_OrderComment</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Order comment module for magento</summary>
+    <description>Order comment module for magento</description>
+    <notes>Order comment module for magento</notes>
+    <authors><author><name>Ti</name><user>titech</user><email>info@titechnologies.in</email></author></authors>
+    <date>2015-01-20</date>
+    <time>14:16:57</time>
+    <contents><target name="magecommunity"><dir name="Ti"><dir name="OrderComment"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="3330745445e5dc2d54aa3b7001dd48f9"/></dir></dir></dir><dir name="Checkout"><file name="Agreements.php" hash="62f63e7f852a5b791d29c95af8026c64"/></dir></dir><dir name="Helper"><file name="Data.php" hash="bed37aebfe9851d079ae448465c9f165"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Order"><dir name="Grid"><file name="Collection.php" hash="1cd9c647a4bff03975d9a9bfbb0c8a9b"/></dir></dir></dir><file name="Observer.php" hash="365cfa588868790a555c322e61448532"/><dir name="Resource"><dir name="Order"><dir name="Grid"><file name="Collection.php" hash="76958c5ec416fc5b5b2f6f286609b223"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="1a44e9b75f4ceb6bb2625829c27f5ec8"/><file name="system.xml" hash="d656f6fe0b273fc3778dc6ce27b5cea9"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="ordercomment"><dir name="checkout"><file name="agreements.phtml" hash="dc7bd31dc17203174dceb63829dcfbb0"/></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="template"><dir name="ordercomment"><dir name="checkout"><file name="agreements.phtml" hash="709a223b6da776a28c8051bfa0fc8c73"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ti_OrderComment.xml" hash="829e5d3bde99e55ed72584aca5696721"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
